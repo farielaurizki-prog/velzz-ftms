@@ -1,0 +1,30 @@
+Velzz FTMS - M3 Deployment Evidence
+Date: 2026-10-21T16:45:30+00:00
+
+=== Homepage HTTP Status ===
+HTTP 200
+
+=== Health Endpoint ===
+HTTP/1.1 200 OK
+Content-Length: 16
+Content-Type: application/json
+Date: Wed, 21 Oct 2026 16:45:30 GMT
+Server: Caddy
+Server: gunicorn
+
+{"status":"ok"}
+
+=== Application and Caddy Services ===
+active
+active
+
+=== UFW Status ===
+Status: active
+
+To                         Action      From
+--                         ------      ----
+OpenSSH                    ALLOW       Anywhere                  
+80/tcp                     ALLOW       Anywhere                  
+OpenSSH (v6)               ALLOW       Anywhere (v6)             
+80/tcp (v6)                ALLOW       Anywhere (v6)             
+
