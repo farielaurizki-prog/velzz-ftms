@@ -53,6 +53,7 @@ Deployment ini menggunakan HTTP melalui alamat IP publik. Domain dan HTTPS belum
 Fokus tahap ini adalah arsitektur awal dan deployment VPS.
 Database, Docker, CI/CD, Infrastructure as Code, domain produksi, dan TLS belum termasuk ruang lingkup.
 
+
 ## Struktur Proyek
 
     velzz-ftms/
@@ -60,6 +61,7 @@ Database, Docker, CI/CD, Infrastructure as Code, domain produksi, dan TLS belum 
     ├── requirements.txt
     ├── .env.example
     ├── .gitignore
+    ├── README.md
     ├── templates/
     │   └── index.html
     ├── static/
@@ -70,4 +72,6 @@ Database, Docker, CI/CD, Infrastructure as Code, domain produksi, dan TLS belum 
         ├── deployment.md
         ├── adr/
         └── evidence/
-            └── m03/
+            ├── m03/
+            └── ev03-riset-pengguna.md
+
