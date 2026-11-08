@@ -23,6 +23,11 @@ Mode permainan yang menjadi ruang lingkup:
   aplikasi.
 - FR-04: Endpoint /health mengembalikan HTTP 200 dan status JSON "ok".
 
+- FR-05: Sistem menyediakan endpoint /api/info untuk
+  menampilkan informasi aplikasi Velzz FTMS.
+- FR-06: Endpoint /api/info mengembalikan HTTP 200
+  dengan informasi aplikasi dalam format JSON.
+
 ## 4. Kebutuhan Nonfungsional
 
 - NFR-01: Aplikasi berjalan pada Ubuntu Server 24.04 LTS.
@@ -33,6 +38,12 @@ Mode permainan yang menjadi ruang lingkup:
 - NFR-06: Port aplikasi Gunicorn hanya dapat diakses melalui localhost
   pada alamat 127.0.0.1:8000.
 - NFR-07: Source code dan dokumentasi disiapkan untuk dikelola melalui Git.
+
+- NFR-08: Akses SSH menggunakan autentikasi public key.
+- NFR-09: Login SSH menggunakan password dinonaktifkan.
+- NFR-10: Login SSH sebagai root dinonaktifkan.
+- NFR-11: Aplikasi dijalankan pada AWS EC2 Ubuntu 24.04 LTS.
+
 
 ## 5. Batasan
 
@@ -48,3 +59,7 @@ Mode permainan yang menjadi ruang lingkup:
 - Service aplikasi dan Caddy berjalan.
 - Firewall UFW aktif.
 - Dokumentasi arsitektur dan deployment tersedia.
+
+- Endpoint /api/info mengembalikan HTTP 200.
+- Login SSH menggunakan private key berhasil diuji.
+- Login root dan autentikasi password SSH dinonaktifkan.
