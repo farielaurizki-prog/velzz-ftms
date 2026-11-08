@@ -13,7 +13,7 @@
 
 Alamat publik M3:
 
-http://52.65.125.172
+http://16.178.214.220
 
 ## 3. Struktur Layanan
 
@@ -50,6 +50,21 @@ Periksa aplikasi melalui Caddy:
 Response yang diharapkan adalah HTTP 200 dengan JSON:
 
     {"status":"ok"}
+
+### Pengujian API Info
+
+Periksa endpoint informasi aplikasi melalui Caddy:
+
+    curl -i http://127.0.0.1/api/info
+
+Hasil pengujian:
+- HTTP Status: 200 OK
+- Reverse Proxy: Caddy
+- Application Server: Gunicorn
+
+Response JSON:
+
+    {"application":"Velzz FTMS","code":"PTI 2802","course":"Cloud Computing","deployment":"AWS EC2 Ubuntu 24.04","status":"ok"}
 
 ## 6. Restart dan Log
 
