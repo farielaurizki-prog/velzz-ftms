@@ -25,8 +25,8 @@ Riset bertujuan memastikan fitur yang dikembangkan sesuai kebutuhan pengguna dan
 | Kode | Peran | Metode | Status |
 |---|---|---|---|
 | R1 | Owner Velzz FTMS (pengembang saya sendiri) | Evaluasi kebutuhan internal | Belum dicatat |
-| R2 | Calon Admin CS | Wawancara | Belum diwawancarai |
-| R3 | Calon Admin BR | Wawancara | Belum diwawancarai |
+| R2 | Calon Admin CS (online / offline)| Wawancara | Belum diwawancarai |
+| R3 | Calon Admin BR (online / offline)| Wawancara | Belum diwawancarai |
 | R4 | Calon Peserta Free Fire | Wawancara | Belum diwawancarai |
 | R5 | Calon Peserta Free Fire | Wawancara | Belum diwawancarai |
 
