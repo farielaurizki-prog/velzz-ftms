@@ -1,4 +1,4 @@
-permitrootlogin without-password
+permitrootlogin no
 pubkeyauthentication yes
 passwordauthentication no
 kbdinteractiveauthentication no
