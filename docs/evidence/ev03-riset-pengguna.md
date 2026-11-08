@@ -56,7 +56,7 @@ Catatan: R1 merupakan pengembang sekaligus Owner, sehingga evaluasi internal tid
 
 | Kode | Tanggal | Temuan utama | Bukti |
 |---|---|---|---|
-| R1 | Belum dicatat | Kebutuhan awal Owner telah dirumuskan; evaluasi belum dilakukan | Belum |
+| R1 | 08/11/2026 | Kebutuhan awal Owner telah dirumuskan; evaluasi belum dilakukan | Belum |
 | R2 | Belum | Menunggu wawancara Admin CS | Belum |
 | R3 | Belum | Menunggu wawancara Admin BR | Belum |
 | R4 | Belum | Menunggu wawancara peserta | Belum |
