@@ -1,0 +1,17 @@
+● velzz-ftms.service - Velzz FTMS Flask Application
+     Loaded: loaded (/etc/systemd/system/velzz-ftms.service; enabled; preset: enabled)
+     Active: active (running) since Sun 2026-11-08 18:30:43 UTC; 10min ago
+   Main PID: 626 (gunicorn)
+      Tasks: 3 (limit: 627)
+     Memory: 34.6M (peak: 34.6M)
+        CPU: 513ms
+     CGroup: /system.slice/velzz-ftms.service
+             ├─626 /home/ubuntu/velzz-ftms/.venv/bin/python3 /home/ubuntu/velzz-ftms/.venv/bin/gunicorn --workers 1 --bind 127.0.0.1:8000 app:app
+             └─846 /home/ubuntu/velzz-ftms/.venv/bin/python3 /home/ubuntu/velzz-ftms/.venv/bin/gunicorn --workers 1 --bind 127.0.0.1:8000 app:app
+
+Nov 08 18:30:43 ip-172-31-43-144 systemd[1]: Started velzz-ftms.service - Velzz FTMS Flask Application.
+Nov 08 18:30:44 ip-172-31-43-144 gunicorn[626]: [2026-11-08 18:30:44 +0000] [626] [INFO] Starting gunicorn 26.2.0
+Nov 08 18:30:44 ip-172-31-43-144 gunicorn[626]: [2026-11-08 18:30:44 +0000] [626] [INFO] Listening at: http://127.0.0.1:8000 (626)
+Nov 08 18:30:44 ip-172-31-43-144 gunicorn[626]: [2026-11-08 18:30:44 +0000] [626] [INFO] Using worker: sync
+Nov 08 18:30:44 ip-172-31-43-144 gunicorn[846]: [2026-11-08 18:30:44 +0000] [846] [INFO] Booting worker with pid: 846
+Nov 08 18:30:44 ip-172-31-43-144 gunicorn[626]: [2026-11-08 18:30:44 +0000] [626] [INFO] Control socket listening at /home/ubuntu/.gunicorn/gunicorn.ctl

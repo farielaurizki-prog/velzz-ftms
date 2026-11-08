@@ -1,0 +1,12 @@
+ Static hostname: ip-172-31-43-144
+       Icon name: computer-vm
+         Chassis: vm 🖴
+  Virtualization: amazon
+Operating System: Ubuntu 24.04.4 LTS
+          Kernel: Linux 7.0.0-1014-aws
+    Architecture: x86-64
+ Hardware Vendor: Amazon EC2
+  Hardware Model: t3.micro
+Firmware Version: 1.0
+   Firmware Date: Mon 2017-10-16
+    Firmware Age: 9y 3w 2d

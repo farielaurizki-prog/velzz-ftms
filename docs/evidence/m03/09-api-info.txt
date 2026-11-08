@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Content-Length: 124
+Content-Type: application/json
+Date: Sun, 08 Nov 2026 18:45:13 GMT
+Server: Caddy
+Server: gunicorn
+
+{"application":"Velzz FTMS","code":"PTI 2802","course":"Cloud Computing","deployment":"AWS EC2 Ubuntu 24.04","status":"ok"}
